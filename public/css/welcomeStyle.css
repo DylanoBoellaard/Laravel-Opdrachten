@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tableDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px;
+}
+
+th, td {
+    border: solid 2px black;
+    padding: 0.5rem;
+    text-align: center;
+}
